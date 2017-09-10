@@ -7,7 +7,7 @@ class School
   end
 
   def roster=(name, grade)
-    roster = {grade: [] << name }
+    roster = {grade: [] << name}
   end
 end
 school = School.new("Hayside High School")
