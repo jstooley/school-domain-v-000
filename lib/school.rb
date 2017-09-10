@@ -19,7 +19,7 @@ class School
     end
     def sort
       @roster.collect do |grade, names|
-        names.sort!{|x,y| Y <=> x}
+        names.sort!{|x,y| y <=> x}
       end
     end
 
