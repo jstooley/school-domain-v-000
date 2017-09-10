@@ -9,5 +9,8 @@ class School
   def roster=(name, grade)
     @roster[:grade] = [] << name
   end
+
+  def add_student(name, grade)
+  end
 end
 school = School.new("Hayside High School")
