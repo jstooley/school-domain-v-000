@@ -4,12 +4,12 @@ class School
 
   def initialize(name)
     @name = name
-    @roster = {}
+    roster = {}
   end
 
   def add_student(name, grade)
-    @roster[:grade] = [].push(name)
+    roster[:grade] = [].push(name)
   end
-  
+
 end
 school = School.new("Hayside High School")
